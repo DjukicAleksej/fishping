@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f6b77">
+    <title>FishPing</title>
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar" aria-label="Device connection">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">
+            <span></span>
+          </div>
+          <div>
+            <h1>FishPing</h1>
+            <p id="deviceName">Smart float monitor</p>
+          </div>
+        </div>
+        <div class="connection">
+          <span id="connectionDot" class="connection-dot"></span>
+          <span id="connectionText">Disconnected</span>
+        </div>
+      </section>
+
+      <section id="statusPanel" class="hero-panel" aria-label="Bite status">
+        <div class="water-visual" aria-hidden="true">
+          <div class="float-body"></div>
+          <div class="float-stem"></div>
+          <div class="ping-ring ping-ring-one"></div>
+          <div class="ping-ring ping-ring-two"></div>
+        </div>
+        <div class="bite-readout">
+          <span class="readout-label">Bites</span>
+          <strong id="biteCount">0</strong>
+        </div>
+        <div class="hero-actions">
+          <button id="connectButton" class="primary-button" type="button">Connect</button>
+          <button id="testAlarmButton" type="button">Test alarm</button>
+        </div>
+      </section>
+
+      <section class="stats-grid" aria-label="Live readings">
+        <article>
+          <span>Since last bite</span>
+          <strong id="sinceLast">--</strong>
+        </article>
+        <article>
+          <span>Last bite</span>
+          <strong id="lastBite">--</strong>
+        </article>
+        <article>
+          <span>Battery</span>
+          <strong id="battery">--</strong>
+        </article>
+        <article>
+          <span>Sensor</span>
+          <strong id="sensorStatus">--</strong>
+        </article>
+      </section>
+
+      <section class="control-band" aria-label="Controls">
+        <div class="control-row">
+          <label for="alarmToggle">Alarm</label>
+          <input id="alarmToggle" type="checkbox" checked>
+        </div>
+        <div class="control-row">
+          <label for="sensitivity">Sensitivity <span id="sensitivityValue">6</span></label>
+          <input id="sensitivity" type="range" min="1" max="10" step="1" value="6">
+        </div>
+        <div class="control-row">
+          <label for="cooldown">Cooldown <span id="cooldownValue">2500 ms</span></label>
+          <input id="cooldown" type="range" min="500" max="8000" step="250" value="2500">
+        </div>
+        <div class="button-row">
+          <button id="armButton" type="button">Disarm</button>
+          <button id="calibrateButton" type="button">Calibrate</button>
+          <button id="resetButton" type="button">Reset count</button>
+        </div>
+      </section>
+
+      <section class="detail-grid" aria-label="Diagnostics">
+        <article>
+          <span>Motion</span>
+          <strong id="magnitude">0.00 g</strong>
+        </article>
+        <article>
+          <span>Jerk</span>
+          <strong id="jerk">0.00 g</strong>
+        </article>
+        <article>
+          <span>Event</span>
+          <strong id="eventId">0</strong>
+        </article>
+      </section>
+
+      <section class="intervals" aria-label="Recent bite intervals">
+        <h2>Intervals</h2>
+        <ol id="intervalList"></ol>
+      </section>
+    </main>
+  </body>
+</html>
