@@ -1,0 +1,11 @@
+Item,Value,Datasheet,LCSC #,Quantity,MOQ,Cost
+Unpolarized capacitor,1uF,https://www.lcsc.com/datasheet/C141772.pdf,C141772,1,10,$0.49 
+Unpolarized capacitor,100nF,https://www.lcsc.com/datasheet/C49678.pdf,C49678,1,20,$0.71 
+Light emitting diode,LED,https://www.lcsc.com/datasheet/C2297.pdf,C2297,1,50,$0.82 
+"Generic connector, single row, 01x02",Conn_01x02,https://www.lcsc.com/datasheet/C160352.pdf,C160352,1,5,$1.72 
+Resistor,4.7k,https://www.lcsc.com/datasheet/C17673.pdf,C17673,2,100,$1.29 
+Resistor,220,https://www.lcsc.com/datasheet/C17557.pdf,C17557,1,100,$0.47 
+Single Pole Single Throw (SPST) switch,SW_SPST,https://www.lcsc.com/datasheet/C431541.pdf,C431541,1,10,$0.58 
+3-Axis Accelerometer,LIS3DH,https://www.st.com/resource/en/datasheet/cd00274221.pdf,C15134,1,1,$1.61 
+Seeed Studio Xiao nRF52840,XIAO-nRF52840-SMD,https://files.seeedstudio.com/wiki/XIAO-BLE/nRF52840_PS_v1.5.pdf,AliExpress Link: https://www.aliexpress.com/item/1005006988954136.html,1,1,$12.34 
+Total,,,,10,297,$20.03 
