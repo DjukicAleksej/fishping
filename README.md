@@ -13,7 +13,7 @@ I wanted this project to be a mix of real outdoor usefulness and hardware learni
 ## Quick Links
 
 - [Firmware](firmware/FishPing_Firmware)
-- [Phone web app](firmware/web)
+- [Phone web app](https://fishping.vercel.app/)
 - [PCB files](PCB_Files)
 - [3D STEP files](3D_Files)
 - [PCB BOM](BOM/BOM.csv)
@@ -178,7 +178,7 @@ If upload fails, double-tap reset on the XIAO to put it into bootloader mode, th
 ---
 
 ## Phone Web App Setup
-
+The Web App is hosted on Vercel https://fishping.vercel.app/, but if you want to access it locally here is the guide:
 The phone side is a simple webpage inside [`firmware/web`](firmware/web). It uses **Web Bluetooth**, so it works best on **Android Chrome**.
 
 No npm packages are required for the actual webpage.
