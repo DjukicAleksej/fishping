@@ -205,6 +205,7 @@ If upload fails, double-tap reset on the XIAO to put it into bootloader mode, th
 ---
 
 ## Phone Web App Setup
+The easiest way to use the web page is accessing it using the link - https://fishping.vercel.app/ , I host it on vercel so you can access it for free and use it at your will, if you want to self host it here's how to do it:
 
 The phone side is a simple webpage inside [`firmware/web`](firmware/web). It uses **Web Bluetooth**, so it works best on **Android Chrome**.
 
