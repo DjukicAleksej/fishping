@@ -45,7 +45,7 @@ I also made a magazine style design for the Hack Club Magazine of projects.
 ---
 
 ## Case Gallery
-
+Case was designed using Onshape, here is the document link to the OnShape Project. <a href="https://cad.onshape.com/documents/5058fab60298abed43f40cc7/w/999f0f19ac49830b5a18ad7c/e/33939858eac56f5636a0ee71">OnShape Project Link</a>
 | Front | Bottom |
 | :---: | :---: |
 | ![FishPing front view](Images/Front.png) | ![FishPing bottom view](Images/Bottom.png) |
