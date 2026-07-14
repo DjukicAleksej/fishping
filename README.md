@@ -10,10 +10,18 @@ I wanted this project to be a mix of real outdoor usefulness and hardware learni
 
 ---
 
+## Zine Design
+
+I also made a zine-style design for FishPing to present the project in a more fun, poster-like way instead of only showing technical files.
+
+![FishPing zine design](Zine.png)
+
+---
+
 ## Quick Links
 
 - [Firmware](firmware/FishPing_Firmware)
-- [Phone web app](https://fishping.vercel.app/)
+- [Phone web app](firmware/web)
 - [PCB files](PCB_Files)
 - [3D STEP files](3D_Files)
 - [PCB BOM](BOM/BOM.csv)
@@ -111,6 +119,25 @@ Having a few spare inserts is useful because heat-set inserts are easy to overhe
 
 ---
 
+## PCB BOM
+
+This is the main PCB parts BOM from [`BOM/BOM.csv`](BOM/BOM.csv). Prices are from the BOM at the time I exported it, so check them again before ordering because component prices can move around.
+
+| Item | Value | Quantity | LCSC # | Datasheet | Price |
+| --- | --- | ---: | --- | --- | ---: |
+| Unpolarized capacitor | 1uF | 1 | C141772 | [Datasheet](https://www.lcsc.com/datasheet/C141772.pdf) | $0.49 |
+| Unpolarized capacitor | 100nF | 1 | C49678 | [Datasheet](https://www.lcsc.com/datasheet/C49678.pdf) | $0.71 |
+| Light emitting diode | LED | 1 | C2297 | [Datasheet](https://www.lcsc.com/datasheet/C2297.pdf) | $0.82 |
+| Generic connector, single row, 01x02 | Conn_01x02 | 1 | C160352 | [Datasheet](https://www.lcsc.com/datasheet/C160352.pdf) | $1.72 |
+| Resistor | 4.7k | 2 | C17673 | [Datasheet](https://www.lcsc.com/datasheet/C17673.pdf) | $1.29 |
+| Resistor | 220 | 1 | C17557 | [Datasheet](https://www.lcsc.com/datasheet/C17557.pdf) | $0.47 |
+| Single Pole Single Throw (SPST) switch | SW_SPST | 1 | C431541 | [Datasheet](https://www.lcsc.com/datasheet/C431541.pdf) | $0.58 |
+| 3-Axis Accelerometer | LIS3DH | 1 | C15134 | [Datasheet](https://www.st.com/resource/en/datasheet/cd00274221.pdf) | $1.61 |
+| Seeed Studio Xiao nRF52840 | XIAO-nRF52840-SMD | 1 | [AliExpress](https://www.aliexpress.com/item/1005006988954136.html) | [Datasheet](https://files.seeedstudio.com/wiki/XIAO-BLE/nRF52840_PS_v1.5.pdf) | $12.34 |
+| **Total** |  | **10** |  |  | **$20.03** |
+
+---
+
 ## Assembly
 
 ### 1. Print and prepare the parts
@@ -178,7 +205,7 @@ If upload fails, double-tap reset on the XIAO to put it into bootloader mode, th
 ---
 
 ## Phone Web App Setup
-The Web App is hosted on Vercel https://fishping.vercel.app/, but if you want to access it locally here is the guide:
+
 The phone side is a simple webpage inside [`firmware/web`](firmware/web). It uses **Web Bluetooth**, so it works best on **Android Chrome**.
 
 No npm packages are required for the actual webpage.
