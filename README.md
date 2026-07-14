@@ -12,7 +12,7 @@ I wanted this project to be a mix of real outdoor usefulness and hardware learni
 
 ## Zine Design
 
-I also made a zine-style design for FishPing to present the project in a more fun, poster-like way instead of only showing technical files.
+I also made a magazine style design for the Hack Club Magazine of projects.
 
 ![FishPing zine design](Zine.png)
 
