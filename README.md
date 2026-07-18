@@ -121,20 +121,21 @@ Having a few spare inserts is useful because heat-set inserts are easy to overhe
 
 ## PCB BOM
 
-This is the main PCB parts BOM from [`BOM/BOM.csv`](BOM/BOM.csv). Prices are from the BOM at the time I exported it, so check them again before ordering because component prices can move around.
+This is the main PCB parts BOM from [`BOM/BOM.csv`](BOM/BOM.csv), with the battery added separately. Prices are from the time I exported the BOM, so check them again before ordering because component prices can move around.
 
-| Item | Value | Quantity | LCSC # | Datasheet | Price |
-| --- | --- | ---: | --- | --- | ---: |
-| Unpolarized capacitor | 1uF | 1 | C141772 | [Datasheet](https://www.lcsc.com/datasheet/C141772.pdf) | $0.49 |
-| Unpolarized capacitor | 100nF | 1 | C49678 | [Datasheet](https://www.lcsc.com/datasheet/C49678.pdf) | $0.71 |
-| Light emitting diode | LED | 1 | C2297 | [Datasheet](https://www.lcsc.com/datasheet/C2297.pdf) | $0.82 |
-| Generic connector, single row, 01x02 | Conn_01x02 | 1 | C160352 | [Datasheet](https://www.lcsc.com/datasheet/C160352.pdf) | $1.72 |
-| Resistor | 4.7k | 2 | C17673 | [Datasheet](https://www.lcsc.com/datasheet/C17673.pdf) | $1.29 |
-| Resistor | 220 | 1 | C17557 | [Datasheet](https://www.lcsc.com/datasheet/C17557.pdf) | $0.47 |
-| Single Pole Single Throw (SPST) switch | SW_SPST | 1 | C431541 | [Datasheet](https://www.lcsc.com/datasheet/C431541.pdf) | $0.58 |
-| 3-Axis Accelerometer | LIS3DH | 1 | C15134 | [Datasheet](https://www.st.com/resource/en/datasheet/cd00274221.pdf) | $1.61 |
-| Seeed Studio Xiao nRF52840 | XIAO-nRF52840-SMD | 1 | [AliExpress](https://www.aliexpress.com/item/1005006988954136.html) | [Datasheet](https://files.seeedstudio.com/wiki/XIAO-BLE/nRF52840_PS_v1.5.pdf) | $12.34 |
-| **Total** |  | **10** |  |  | **$20.03** |
+| Item | Value | Quantity | LCSC # | Datasheet | Purchase link | Price |
+| --- | --- | ---: | --- | --- | --- | ---: |
+| Unpolarized capacitor | 1uF | 1 | C141772 | [Datasheet](https://www.lcsc.com/datasheet/C141772.pdf) | [Buy from LCSC](https://www.lcsc.com/product-detail/C141772.html) | $0.49 |
+| Unpolarized capacitor | 100nF | 1 | C49678 | [Datasheet](https://www.lcsc.com/datasheet/C49678.pdf) | [Buy from LCSC](https://www.lcsc.com/product-detail/C49678.html) | $0.71 |
+| Light emitting diode | LED | 1 | C2297 | [Datasheet](https://www.lcsc.com/datasheet/C2297.pdf) | [Buy from LCSC](https://www.lcsc.com/product-detail/C2297.html) | $0.82 |
+| Generic connector, single row, 01x02 | Conn_01x02 | 1 | C160352 | [Datasheet](https://www.lcsc.com/datasheet/C160352.pdf) | [Buy from LCSC](https://www.lcsc.com/product-detail/C160352.html) | $1.72 |
+| Resistor | 4.7k | 2 | C17673 | [Datasheet](https://www.lcsc.com/datasheet/C17673.pdf) | [Buy from LCSC](https://www.lcsc.com/product-detail/C17673.html) | $1.29 |
+| Resistor | 220 | 1 | C17557 | [Datasheet](https://www.lcsc.com/datasheet/C17557.pdf) | [Buy from LCSC](https://www.lcsc.com/product-detail/C17557.html) | $0.47 |
+| Single Pole Single Throw (SPST) switch | SW_SPST | 1 | C431541 | [Datasheet](https://www.lcsc.com/datasheet/C431541.pdf) | [Buy from LCSC](https://www.lcsc.com/product-detail/C431541.html) | $0.58 |
+| 3-Axis Accelerometer | LIS3DH | 1 | C15134 | [Datasheet](https://www.st.com/resource/en/datasheet/cd00274221.pdf) | [Buy from LCSC](https://www.lcsc.com/product-detail/C15134.html) | $1.61 |
+| Seeed Studio XIAO nRF52840 | XIAO-nRF52840-SMD | 1 | N/A | [Datasheet](https://files.seeedstudio.com/wiki/XIAO-BLE/nRF52840_PS_v1.5.pdf) | [Buy from AliExpress](https://www.aliexpress.com/item/1005006988954136.html) | $12.34 |
+| Lithium Ion Polymer Battery | 3.7V 100mAh | 1 | N/A | [Datasheet](https://cdn-shop.adafruit.com/product-files/1570/1570datasheet.pdf) | [Buy from Adafruit](https://www.adafruit.com/product/1570) | $5.95 |
+| **Total** |  | **11** |  |  |  | **$25.98** |
 
 ---
 
